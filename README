@@ -1,0 +1,67 @@
+Nightshade - Black single-author child theme for WordPress
+----------------------------------------------------------
+Nightshade is a fluid, black single-author child theme for Wordpress
+designed to mimic the look and feel of Minima Black, a theme on the popular
+blog network Blogger.
+
+Nightshade is a child theme based on the Thematic Framework. What is
+Thematic and why is it important? To understand this, first you must
+understand child themes. In layman's terms, a child theme is a theme that
+piggybacks on another theme's PHP while providing its own CSS to create a
+new look. This child theme piggybacks off the Thematic Framework, a free
+copy of which can be obtained at the Themeshaper website,
+http://themeshaper.com/thematic/.
+
+Author
+------
+Jeremy Brown <code@mischivous.com>
+
+Installation
+------------
+
+	0) If you haven't done so already, download a copy of Thematic (up
+	   to 0.9.6.1) from the Themeshaper website at the address listed
+	   above.
+
+	1) Extract both the Thematic theme and the Nightshade theme into
+	   your blog's "themes" directory.
+
+	2) Activate Nightshade from the dashboard.
+
+	3) You're done!
+
+Author's Notes
+--------------
+Hello, and thanks for choosing my theme! Before you start using Nightshade, I
+just want to let you know about a few quirks about the theme that you should
+probably know about before you begin to use it:
+
+	1: The theme was designed to give end users the ability to use
+	   widgets to fine-tune the way content is displayed on their blog.
+	   Therefore, you will have to find a set of widgets and a display
+	   order that suits you. If you wish to get your blog up and running
+	   as soon as possible, I offer the following default configuration:
+
+		* Primary Aside: Search, Links, Archives, Meta
+		* Secondary Aside: Text (see below)
+
+	2: The theme was designed to have 3 columns - one on the right (the
+	   primary aside) for general blog stuff like links and a search bar,
+	   one in the center for content and one on the left (the secondary
+	   aside) for more content about the author. Thus, I propose that for
+	   the best experience you follow these conventions, with the first
+	   item in the secondary aside being an "About Me" space to talk
+	   about yourself, with possibly a link to a page that goes into
+	   greater detail. The space below the blurb could be well utilized
+	   with a Twitter feed (I recommend WP Tweets, as it's the only one
+	   I am 100% sure will play nice with the theme, but you can try
+	   others and if they look well with the theme please let me know.)
+
+	3: While the theme is advertised as having three columns, it only
+	   does so on the index page - everywhere else, it drops to two
+	   columns to better display the main content of the blog. Thusly,
+	   if you really want some widget to always be visible, you should
+	   put it in the primary aside.
+
+And that's about it! Remember - everything here is just information about the
+theme and some starter configurations and plugins, nothing is the gospel.

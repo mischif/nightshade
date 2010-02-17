@@ -1,0 +1,430 @@
+/*
+Theme Name: Nightshade
+Theme URI: http://www.mischivous.com/code/nightshade/
+Description: Nightshade is a black three-column theme for WordPress designed to accomodate any user's screen to the fullest by utilizing all available space intelligently. Tested up to Thematic 0.9.6.1.
+Author: Jeremy Brown
+Author URI: http://www.mischivous.com/
+Template: thematic
+Version: 1.0.1
+Tags:black,three-columns,two-columns,flexible-width,right-sidebar
+
+This work is copyright Jeremy Brown and is released under the 3-clause BSD license, the terms of which can be found in the LICENSE file.
+
+*/
+	
+@import url("../thematic/style.css");
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	color:#AAAAAA;
+	}
+
+a:link, a:visited {
+	color:#99AADD;
+	text-decoration:none;
+	}
+
+#access {
+	display:none;
+	}
+
+.aside ul ul {
+	list-style-type:none;
+	}
+
+#wrapper {
+	background:black none repeat scroll 0 0;
+	border-top:15px solid black;
+	}
+
+#wrapper a:hover {
+	color:#AADD99;
+	}
+
+#header {
+	background:black none repeat scroll 0 0;
+	}
+
+#branding {
+	border:2px solid #222222;
+	height:110px;
+	margin:10px auto;
+	padding:10px;
+	text-align:center;
+	width:640px;
+	}
+
+#blog-title {
+	border-color:#222222;
+	border-style:solid solid hidden;
+	border-width:2px;
+	font-size:200%;
+	font-weight:bold;
+	height:25px;
+	letter-spacing:0.2em;
+	padding:15px 0 20px;
+	text-transform:uppercase;
+	}
+
+#blog-title a {
+	color:#CCCCCC;
+	font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	letter-spacing:0.1em;
+	}
+
+#blog-description {
+	border-color:#222222;
+	border-style:hidden solid solid;
+	border-width:2px;
+	color:#777777;
+	font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	padding:0 0 24px;
+	}
+
+.page-title {
+	margin-left:27%;
+	text-align:center;
+	}
+
+#main {
+	margin:-40px auto 0;
+	overflow:hidden;
+	width:auto;
+	}
+
+#container {
+	width:auto;
+	}
+
+.main-aside h3 {
+	color:#777777;
+	font-weight:bold;
+	padding:17px 0 1px;
+	margin-left:-10px;
+	}
+
+#content {
+	margin:0 22%;
+	min-width:675px;
+	overflow:hidden;
+	width:auto;
+	}
+
+.entry-title {
+	color:#AADD99;
+	font-family:Georgia,serif;
+	font-size:24px;
+	font-weight:bold;
+	line-height:26px;
+	padding:8px 0 2px;
+	text-align:center;
+	text-transform:uppercase;
+	}
+
+.entry-title a {
+	color:#AADD99;
+	text-transform:uppercase;
+	font-family:Georgia,serif;
+	}
+
+.entry-meta a {
+	color:#99AADD;
+	}
+
+.entry-content {
+	text-align:justify;
+	}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+	font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	}
+
+.entry-content h1 {
+	font-size:30px;
+	letter-spacing:0.03em;
+	padding:0;
+	}
+	
+.entry-content h2 {
+	font-size:25px;
+	letter-spacing:0.04em;
+	padding:0;
+	}
+
+.entry-content h3 {
+	font-size:20px;
+	letter-spacing:0.06em;
+	padding:0;
+	}
+
+.entry-content h4 {
+	font-size:17px;
+	text-transform:none;
+	}
+
+.entry-content h5 {
+	font-size:15px;
+	text-transform:none;
+	}
+
+.entry-content h6 {
+	font-size:10px;
+	}
+	
+.page-link a {
+	border:2px inset #CCCCCC;
+	font-weight:bold;
+	padding:0.2em 0.375em;
+	text-decoration:none;
+	}
+
+.wp-caption {
+	margin-left:35%;
+	}
+	
+.wp-caption img {
+	border:2px inset;
+	}
+
+.entry-content > blockquote {
+	background:#222 url(images/kopen.png) no-repeat top left;
+	padding:30px 15px 10px 40px;
+	}
+
+/* Comments portion */
+#comments {
+	background:transparent none repeat scroll 0 0;
+	overflow:hidden;
+	}
+
+#comments h3 {
+	text-align:center;
+	}
+
+#comments-list ol {
+	border-style:none;
+	}
+
+#comments-list li.alt {
+	background:#333333 none repeat scroll 0 0;
+	}
+
+#comments li {
+	background:#333333 none repeat scroll 0 0;
+	border-top:medium hidden;
+	border-bottom:none;
+	margin:0 20px 44px;
+	padding:17px 20px 1px;
+	position:relative;
+	text-align:justify;
+	}
+	
+.comment-content > blockquote {
+	background:#222 url(images/kopen.png) no-repeat top left;
+	margin-bottom:15px;
+	padding:40px 15px 20px 40px;
+	}
+
+.form-section input {
+	width:99%;
+	}
+
+#trackbacks-list {
+	padding-bottom:0;
+	}
+
+#respond {
+	background:#333333 none repeat scroll 0 0;
+	border-top:medium hidden;
+	margin:0 auto;
+	padding:17px 20px 0;
+	width:92%;
+	}
+
+#respond #form-section-url input {
+	width:99%;
+	}
+
+/* End of comments */
+
+.entry-utility {
+	color:#AAAAAA;
+	}
+
+.main-aside ul {
+	padding:0;
+	}
+
+#menu ul li {
+	border-bottom:1px dotted #444444;
+	margin:1.5em 0 0.75em;
+	padding-bottom:15px;
+	list-style-type:none;
+	}
+
+#primary {
+	border:medium none;
+	float:left;
+	margin-bottom:0;
+	margin-left:-19%;
+	padding:0;
+	width:17%;
+	}
+
+.aside, .aside input {
+	width:97%;
+	}
+
+.aside table {
+	float:right;
+	}
+
+.aside form, .aside table {
+	margin-bottom:0;
+	}
+	
+#secondary {
+	float:left;
+	margin-bottom:0;
+	margin-left:-96%;
+	margin-top:0;
+	width:17%;
+	}
+
+#siteinfo {
+	margin:0;
+	padding:2px 0 4px;
+	width:99%;
+	}
+
+#siteinfo a {
+	font-style:italic;
+	}
+
+#footer {
+	background:transparent none repeat scroll 0 0;
+	border-top:medium none;
+	color:#000000;
+	padding:0;
+	text-align:right;
+	}
+
+/*Two column structure for search results */
+.page #content,
+.search #content {
+	margin:0 22% 0 3%;
+	min-width:849px;
+	overflow:hidden;
+	}
+
+.page .main-aside,
+.search .main-aside {
+	position:relative;
+	}
+
+.page #primary,
+.search #primary {
+	float:right;
+	margin-right:2%;
+	width:17%;
+	}
+
+.page #secondary,
+.search #secondary {
+	display:none;
+	}
+
+.page .entry-title,
+.search .entry-title {
+	margin-left:52%;
+	}
+	
+.page #noresults-searchform,
+.search #noresults-searchform {
+	margin-left:50%;
+	}
+	
+/*End of search results structure */	
+	
+/* Two column structure for posts */
+.page #content,
+.single #content {
+	margin:0 22% 0 3%;
+	min-width:849px;
+	overflow:hidden;
+	}
+
+.page .main-aside,
+.single .main-aside {
+	position:relative;
+	}
+
+.page #primary,
+.single #primary {
+	float:right;
+	margin-right:2%;
+	width:17%;
+	}
+
+.page #secondary,
+.single #secondary {
+	display:none;
+	}
+
+.page .entry-title,
+.single .entry-title {
+	margin-left:26%;
+	}
+	
+/* End of post structure */
+
+/* Two column structure for pages/archives */
+.page #content,
+.archive #content {
+	margin:0 22% 0 3%;
+	min-width:849px;
+	overflow:hidden;
+	}
+
+.page .main-aside,
+.archive .main-aside {
+	position:relative;
+	}
+
+.page #primary,
+.archive #primary {
+	float:right;
+	margin-right:2%;
+	width:17%;
+	}
+
+.page #secondary,
+.archive #secondary {
+	display:none;
+	}
+
+.page .entry-title,
+.archive .entry-title {
+	margin-left:25%;
+	}
+
+.aside .current_page_item .page_item a {
+	color:#99AADD;
+	}
+
+/* End of page/archive structure */
+
+/* Extra stuff I don't really need now but may in a future release:
+
+Color for page link when viewing that page
+.aside .current_page_item a {
+	color:
+	}
+
+Other extra stuff: CSS for a Twitter feed:*/
+
+ul #wp_tweets_marker li {
+	margin:5px 0 0 -21px;
+	}
+/*Aaannnnndddddd I'm done :)*/
